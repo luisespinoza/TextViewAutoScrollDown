@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A02C8A6D16B9530100FCC1E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E416B94AAB009BDB2E /* UIKit.framework */; };
+		A02C8A6E16B9530100FCC1E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E616B94AAB009BDB2E /* Foundation.framework */; };
+		A02C8A6F16B9530100FCC1E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E816B94AAB009BDB2E /* CoreGraphics.framework */; };
+		A02C8A7516B9530100FCC1E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A02C8A7316B9530100FCC1E9 /* InfoPlist.strings */; };
+		A02C8A7716B9530100FCC1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C8A7616B9530100FCC1E9 /* main.m */; };
+		A02C8A7B16B9530100FCC1E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C8A7A16B9530100FCC1E9 /* AppDelegate.m */; };
+		A02C8A7D16B9530100FCC1E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A02C8A7C16B9530100FCC1E9 /* Default.png */; };
+		A02C8A7F16B9530100FCC1E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A02C8A7E16B9530100FCC1E9 /* Default@2x.png */; };
+		A02C8A8116B9530100FCC1E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A02C8A8016B9530100FCC1E9 /* Default-568h@2x.png */; };
+		A02C8A8416B9530100FCC1E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C8A8316B9530100FCC1E9 /* ViewController.m */; };
+		A02C8A8716B9530100FCC1E9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02C8A8516B9530100FCC1E9 /* ViewController.xib */; };
+		A02C8A8E16B9530100FCC1E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE730816B94AAB009BDB2E /* SenTestingKit.framework */; };
+		A02C8A8F16B9530100FCC1E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E416B94AAB009BDB2E /* UIKit.framework */; };
+		A02C8A9016B9530100FCC1E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E616B94AAB009BDB2E /* Foundation.framework */; };
+		A02C8A9816B9530100FCC1E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A02C8A9616B9530100FCC1E9 /* InfoPlist.strings */; };
+		A02C8A9B16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C8A9A16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.m */; };
+		A0EE72E516B94AAB009BDB2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E416B94AAB009BDB2E /* UIKit.framework */; };
+		A0EE72E716B94AAB009BDB2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E616B94AAB009BDB2E /* Foundation.framework */; };
+		A0EE72E916B94AAB009BDB2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E816B94AAB009BDB2E /* CoreGraphics.framework */; };
+		A0EE72EF16B94AAB009BDB2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0EE72ED16B94AAB009BDB2E /* InfoPlist.strings */; };
+		A0EE72F116B94AAB009BDB2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE72F016B94AAB009BDB2E /* main.m */; };
+		A0EE72F516B94AAB009BDB2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE72F416B94AAB009BDB2E /* AppDelegate.m */; };
+		A0EE72F716B94AAB009BDB2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0EE72F616B94AAB009BDB2E /* Default.png */; };
+		A0EE72F916B94AAB009BDB2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0EE72F816B94AAB009BDB2E /* Default@2x.png */; };
+		A0EE72FB16B94AAB009BDB2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0EE72FA16B94AAB009BDB2E /* Default-568h@2x.png */; };
+		A0EE72FE16B94AAB009BDB2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE72FD16B94AAB009BDB2E /* ViewController.m */; };
+		A0EE730116B94AAB009BDB2E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EE72FF16B94AAB009BDB2E /* ViewController.xib */; };
+		A0EE730916B94AAB009BDB2E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE730816B94AAB009BDB2E /* SenTestingKit.framework */; };
+		A0EE730A16B94AAB009BDB2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E416B94AAB009BDB2E /* UIKit.framework */; };
+		A0EE730B16B94AAB009BDB2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EE72E616B94AAB009BDB2E /* Foundation.framework */; };
+		A0EE731316B94AAB009BDB2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0EE731116B94AAB009BDB2E /* InfoPlist.strings */; };
+		A0EE731616B94AAB009BDB2E /* TextViewAutoScrollDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE731516B94AAB009BDB2E /* TextViewAutoScrollDownTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A02C8A9116B9530100FCC1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0EE72D716B94AAB009BDB2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02C8A6A16B9530100FCC1E9;
+			remoteInfo = TextViewScrollDisableAutoScrollDown;
+		};
+		A0EE730C16B94AAB009BDB2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0EE72D716B94AAB009BDB2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0EE72DF16B94AAB009BDB2E;
+			remoteInfo = TextViewAutoScrollDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A02C8A6B16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewScrollDisableAutoScrollDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02C8A7216B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewScrollDisableAutoScrollDown-Info.plist"; sourceTree = "<group>"; };
+		A02C8A7416B9530100FCC1E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A02C8A7616B9530100FCC1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A02C8A7816B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextViewScrollDisableAutoScrollDown-Prefix.pch"; sourceTree = "<group>"; };
+		A02C8A7916B9530100FCC1E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A02C8A7A16B9530100FCC1E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A02C8A7C16B9530100FCC1E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A02C8A7E16B9530100FCC1E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A02C8A8016B9530100FCC1E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A02C8A8216B9530100FCC1E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A02C8A8316B9530100FCC1E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A02C8A8616B9530100FCC1E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A02C8A8D16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewScrollDisableAutoScrollDownTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02C8A9516B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewScrollDisableAutoScrollDownTests-Info.plist"; sourceTree = "<group>"; };
+		A02C8A9716B9530100FCC1E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A02C8A9916B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewScrollDisableAutoScrollDownTests.h; sourceTree = "<group>"; };
+		A02C8A9A16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewScrollDisableAutoScrollDownTests.m; sourceTree = "<group>"; };
+		A0EE72E016B94AAB009BDB2E /* TextViewAutoScrollDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewAutoScrollDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EE72E416B94AAB009BDB2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0EE72E616B94AAB009BDB2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0EE72E816B94AAB009BDB2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0EE72EC16B94AAB009BDB2E /* TextViewAutoScrollDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewAutoScrollDown-Info.plist"; sourceTree = "<group>"; };
+		A0EE72EE16B94AAB009BDB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0EE72F016B94AAB009BDB2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0EE72F216B94AAB009BDB2E /* TextViewAutoScrollDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextViewAutoScrollDown-Prefix.pch"; sourceTree = "<group>"; };
+		A0EE72F316B94AAB009BDB2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0EE72F416B94AAB009BDB2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0EE72F616B94AAB009BDB2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0EE72F816B94AAB009BDB2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A0EE72FA16B94AAB009BDB2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A0EE72FC16B94AAB009BDB2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0EE72FD16B94AAB009BDB2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0EE730016B94AAB009BDB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A0EE730716B94AAB009BDB2E /* TextViewAutoScrollDownTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewAutoScrollDownTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EE730816B94AAB009BDB2E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A0EE731016B94AAB009BDB2E /* TextViewAutoScrollDownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewAutoScrollDownTests-Info.plist"; sourceTree = "<group>"; };
+		A0EE731216B94AAB009BDB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0EE731416B94AAB009BDB2E /* TextViewAutoScrollDownTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewAutoScrollDownTests.h; sourceTree = "<group>"; };
+		A0EE731516B94AAB009BDB2E /* TextViewAutoScrollDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewAutoScrollDownTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02C8A6816B9530100FCC1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C8A6D16B9530100FCC1E9 /* UIKit.framework in Frameworks */,
+				A02C8A6E16B9530100FCC1E9 /* Foundation.framework in Frameworks */,
+				A02C8A6F16B9530100FCC1E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02C8A8916B9530100FCC1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C8A8E16B9530100FCC1E9 /* SenTestingKit.framework in Frameworks */,
+				A02C8A8F16B9530100FCC1E9 /* UIKit.framework in Frameworks */,
+				A02C8A9016B9530100FCC1E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EE72DD16B94AAB009BDB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EE72E516B94AAB009BDB2E /* UIKit.framework in Frameworks */,
+				A0EE72E716B94AAB009BDB2E /* Foundation.framework in Frameworks */,
+				A0EE72E916B94AAB009BDB2E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EE730316B94AAB009BDB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EE730916B94AAB009BDB2E /* SenTestingKit.framework in Frameworks */,
+				A0EE730A16B94AAB009BDB2E /* UIKit.framework in Frameworks */,
+				A0EE730B16B94AAB009BDB2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02C8A7016B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown */ = {
+			isa = PBXGroup;
+			children = (
+				A02C8A7916B9530100FCC1E9 /* AppDelegate.h */,
+				A02C8A7A16B9530100FCC1E9 /* AppDelegate.m */,
+				A02C8A8216B9530100FCC1E9 /* ViewController.h */,
+				A02C8A8316B9530100FCC1E9 /* ViewController.m */,
+				A02C8A8516B9530100FCC1E9 /* ViewController.xib */,
+				A02C8A7116B9530100FCC1E9 /* Supporting Files */,
+			);
+			path = TextViewScrollDisableAutoScrollDown;
+			sourceTree = "<group>";
+		};
+		A02C8A7116B9530100FCC1E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A02C8A7216B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown-Info.plist */,
+				A02C8A7316B9530100FCC1E9 /* InfoPlist.strings */,
+				A02C8A7616B9530100FCC1E9 /* main.m */,
+				A02C8A7816B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown-Prefix.pch */,
+				A02C8A7C16B9530100FCC1E9 /* Default.png */,
+				A02C8A7E16B9530100FCC1E9 /* Default@2x.png */,
+				A02C8A8016B9530100FCC1E9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A02C8A9316B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				A02C8A9916B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.h */,
+				A02C8A9A16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.m */,
+				A02C8A9416B9530100FCC1E9 /* Supporting Files */,
+			);
+			path = TextViewScrollDisableAutoScrollDownTests;
+			sourceTree = "<group>";
+		};
+		A02C8A9416B9530100FCC1E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A02C8A9516B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests-Info.plist */,
+				A02C8A9616B9530100FCC1E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0EE72D516B94AAB009BDB2E = {
+			isa = PBXGroup;
+			children = (
+				A0EE72EA16B94AAB009BDB2E /* TextViewAutoScrollDown */,
+				A0EE730E16B94AAB009BDB2E /* TextViewAutoScrollDownTests */,
+				A02C8A7016B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown */,
+				A02C8A9316B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests */,
+				A0EE72E316B94AAB009BDB2E /* Frameworks */,
+				A0EE72E116B94AAB009BDB2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0EE72E116B94AAB009BDB2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE72E016B94AAB009BDB2E /* TextViewAutoScrollDown.app */,
+				A0EE730716B94AAB009BDB2E /* TextViewAutoScrollDownTests.octest */,
+				A02C8A6B16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown.app */,
+				A02C8A8D16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0EE72E316B94AAB009BDB2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE72E416B94AAB009BDB2E /* UIKit.framework */,
+				A0EE72E616B94AAB009BDB2E /* Foundation.framework */,
+				A0EE72E816B94AAB009BDB2E /* CoreGraphics.framework */,
+				A0EE730816B94AAB009BDB2E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0EE72EA16B94AAB009BDB2E /* TextViewAutoScrollDown */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE72F316B94AAB009BDB2E /* AppDelegate.h */,
+				A0EE72F416B94AAB009BDB2E /* AppDelegate.m */,
+				A0EE72FC16B94AAB009BDB2E /* ViewController.h */,
+				A0EE72FD16B94AAB009BDB2E /* ViewController.m */,
+				A0EE72FF16B94AAB009BDB2E /* ViewController.xib */,
+				A0EE72EB16B94AAB009BDB2E /* Supporting Files */,
+			);
+			path = TextViewAutoScrollDown;
+			sourceTree = "<group>";
+		};
+		A0EE72EB16B94AAB009BDB2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE72EC16B94AAB009BDB2E /* TextViewAutoScrollDown-Info.plist */,
+				A0EE72ED16B94AAB009BDB2E /* InfoPlist.strings */,
+				A0EE72F016B94AAB009BDB2E /* main.m */,
+				A0EE72F216B94AAB009BDB2E /* TextViewAutoScrollDown-Prefix.pch */,
+				A0EE72F616B94AAB009BDB2E /* Default.png */,
+				A0EE72F816B94AAB009BDB2E /* Default@2x.png */,
+				A0EE72FA16B94AAB009BDB2E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0EE730E16B94AAB009BDB2E /* TextViewAutoScrollDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE731416B94AAB009BDB2E /* TextViewAutoScrollDownTests.h */,
+				A0EE731516B94AAB009BDB2E /* TextViewAutoScrollDownTests.m */,
+				A0EE730F16B94AAB009BDB2E /* Supporting Files */,
+			);
+			path = TextViewAutoScrollDownTests;
+			sourceTree = "<group>";
+		};
+		A0EE730F16B94AAB009BDB2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE731016B94AAB009BDB2E /* TextViewAutoScrollDownTests-Info.plist */,
+				A0EE731116B94AAB009BDB2E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A02C8A6A16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02C8AA016B9530100FCC1E9 /* Build configuration list for PBXNativeTarget "TextViewScrollDisableAutoScrollDown" */;
+			buildPhases = (
+				A02C8A6716B9530100FCC1E9 /* Sources */,
+				A02C8A6816B9530100FCC1E9 /* Frameworks */,
+				A02C8A6916B9530100FCC1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextViewScrollDisableAutoScrollDown;
+			productName = TextViewScrollDisableAutoScrollDown;
+			productReference = A02C8A6B16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A02C8A8C16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02C8AA116B9530100FCC1E9 /* Build configuration list for PBXNativeTarget "TextViewScrollDisableAutoScrollDownTests" */;
+			buildPhases = (
+				A02C8A8816B9530100FCC1E9 /* Sources */,
+				A02C8A8916B9530100FCC1E9 /* Frameworks */,
+				A02C8A8A16B9530100FCC1E9 /* Resources */,
+				A02C8A8B16B9530100FCC1E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02C8A9216B9530100FCC1E9 /* PBXTargetDependency */,
+			);
+			name = TextViewScrollDisableAutoScrollDownTests;
+			productName = TextViewScrollDisableAutoScrollDownTests;
+			productReference = A02C8A8D16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A0EE72DF16B94AAB009BDB2E /* TextViewAutoScrollDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0EE731916B94AAB009BDB2E /* Build configuration list for PBXNativeTarget "TextViewAutoScrollDown" */;
+			buildPhases = (
+				A0EE72DC16B94AAB009BDB2E /* Sources */,
+				A0EE72DD16B94AAB009BDB2E /* Frameworks */,
+				A0EE72DE16B94AAB009BDB2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextViewAutoScrollDown;
+			productName = TextViewAutoScrollDown;
+			productReference = A0EE72E016B94AAB009BDB2E /* TextViewAutoScrollDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0EE730616B94AAB009BDB2E /* TextViewAutoScrollDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0EE731C16B94AAB009BDB2E /* Build configuration list for PBXNativeTarget "TextViewAutoScrollDownTests" */;
+			buildPhases = (
+				A0EE730216B94AAB009BDB2E /* Sources */,
+				A0EE730316B94AAB009BDB2E /* Frameworks */,
+				A0EE730416B94AAB009BDB2E /* Resources */,
+				A0EE730516B94AAB009BDB2E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0EE730D16B94AAB009BDB2E /* PBXTargetDependency */,
+			);
+			name = TextViewAutoScrollDownTests;
+			productName = TextViewAutoScrollDownTests;
+			productReference = A0EE730716B94AAB009BDB2E /* TextViewAutoScrollDownTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0EE72D716B94AAB009BDB2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = LuisEspinoza;
+			};
+			buildConfigurationList = A0EE72DA16B94AAB009BDB2E /* Build configuration list for PBXProject "TextViewAutoScrollDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0EE72D516B94AAB009BDB2E;
+			productRefGroup = A0EE72E116B94AAB009BDB2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0EE72DF16B94AAB009BDB2E /* TextViewAutoScrollDown */,
+				A0EE730616B94AAB009BDB2E /* TextViewAutoScrollDownTests */,
+				A02C8A6A16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown */,
+				A02C8A8C16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A02C8A6916B9530100FCC1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C8A7516B9530100FCC1E9 /* InfoPlist.strings in Resources */,
+				A02C8A7D16B9530100FCC1E9 /* Default.png in Resources */,
+				A02C8A7F16B9530100FCC1E9 /* Default@2x.png in Resources */,
+				A02C8A8116B9530100FCC1E9 /* Default-568h@2x.png in Resources */,
+				A02C8A8716B9530100FCC1E9 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02C8A8A16B9530100FCC1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C8A9816B9530100FCC1E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EE72DE16B94AAB009BDB2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EE72EF16B94AAB009BDB2E /* InfoPlist.strings in Resources */,
+				A0EE72F716B94AAB009BDB2E /* Default.png in Resources */,
+				A0EE72F916B94AAB009BDB2E /* Default@2x.png in Resources */,
+				A0EE72FB16B94AAB009BDB2E /* Default-568h@2x.png in Resources */,
+				A0EE730116B94AAB009BDB2E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EE730416B94AAB009BDB2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EE731316B94AAB009BDB2E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A02C8A8B16B9530100FCC1E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		A0EE730516B94AAB009BDB2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02C8A6716B9530100FCC1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C8A7716B9530100FCC1E9 /* main.m in Sources */,
+				A02C8A7B16B9530100FCC1E9 /* AppDelegate.m in Sources */,
+				A02C8A8416B9530100FCC1E9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02C8A8816B9530100FCC1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C8A9B16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EE72DC16B94AAB009BDB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EE72F116B94AAB009BDB2E /* main.m in Sources */,
+				A0EE72F516B94AAB009BDB2E /* AppDelegate.m in Sources */,
+				A0EE72FE16B94AAB009BDB2E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EE730216B94AAB009BDB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EE731616B94AAB009BDB2E /* TextViewAutoScrollDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02C8A9216B9530100FCC1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A02C8A6A16B9530100FCC1E9 /* TextViewScrollDisableAutoScrollDown */;
+			targetProxy = A02C8A9116B9530100FCC1E9 /* PBXContainerItemProxy */;
+		};
+		A0EE730D16B94AAB009BDB2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0EE72DF16B94AAB009BDB2E /* TextViewAutoScrollDown */;
+			targetProxy = A0EE730C16B94AAB009BDB2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A02C8A7316B9530100FCC1E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02C8A7416B9530100FCC1E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A02C8A8516B9530100FCC1E9 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02C8A8616B9530100FCC1E9 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A02C8A9616B9530100FCC1E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02C8A9716B9530100FCC1E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0EE72ED16B94AAB009BDB2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0EE72EE16B94AAB009BDB2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0EE72FF16B94AAB009BDB2E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0EE730016B94AAB009BDB2E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A0EE731116B94AAB009BDB2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0EE731216B94AAB009BDB2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02C8A9C16B9530100FCC1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewScrollDisableAutoScrollDown/TextViewScrollDisableAutoScrollDown-Prefix.pch";
+				INFOPLIST_FILE = "TextViewScrollDisableAutoScrollDown/TextViewScrollDisableAutoScrollDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A02C8A9D16B9530100FCC1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewScrollDisableAutoScrollDown/TextViewScrollDisableAutoScrollDown-Prefix.pch";
+				INFOPLIST_FILE = "TextViewScrollDisableAutoScrollDown/TextViewScrollDisableAutoScrollDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A02C8A9E16B9530100FCC1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextViewScrollDisableAutoScrollDown.app/TextViewScrollDisableAutoScrollDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewScrollDisableAutoScrollDown/TextViewScrollDisableAutoScrollDown-Prefix.pch";
+				INFOPLIST_FILE = "TextViewScrollDisableAutoScrollDownTests/TextViewScrollDisableAutoScrollDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A02C8A9F16B9530100FCC1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextViewScrollDisableAutoScrollDown.app/TextViewScrollDisableAutoScrollDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewScrollDisableAutoScrollDown/TextViewScrollDisableAutoScrollDown-Prefix.pch";
+				INFOPLIST_FILE = "TextViewScrollDisableAutoScrollDownTests/TextViewScrollDisableAutoScrollDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		A0EE731716B94AAB009BDB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0EE731816B94AAB009BDB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0EE731A16B94AAB009BDB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewAutoScrollDown/TextViewAutoScrollDown-Prefix.pch";
+				INFOPLIST_FILE = "TextViewAutoScrollDown/TextViewAutoScrollDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0EE731B16B94AAB009BDB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewAutoScrollDown/TextViewAutoScrollDown-Prefix.pch";
+				INFOPLIST_FILE = "TextViewAutoScrollDown/TextViewAutoScrollDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0EE731D16B94AAB009BDB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextViewAutoScrollDown.app/TextViewAutoScrollDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewAutoScrollDown/TextViewAutoScrollDown-Prefix.pch";
+				INFOPLIST_FILE = "TextViewAutoScrollDownTests/TextViewAutoScrollDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A0EE731E16B94AAB009BDB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextViewAutoScrollDown.app/TextViewAutoScrollDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewAutoScrollDown/TextViewAutoScrollDown-Prefix.pch";
+				INFOPLIST_FILE = "TextViewAutoScrollDownTests/TextViewAutoScrollDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02C8AA016B9530100FCC1E9 /* Build configuration list for PBXNativeTarget "TextViewScrollDisableAutoScrollDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02C8A9C16B9530100FCC1E9 /* Debug */,
+				A02C8A9D16B9530100FCC1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A02C8AA116B9530100FCC1E9 /* Build configuration list for PBXNativeTarget "TextViewScrollDisableAutoScrollDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02C8A9E16B9530100FCC1E9 /* Debug */,
+				A02C8A9F16B9530100FCC1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0EE72DA16B94AAB009BDB2E /* Build configuration list for PBXProject "TextViewAutoScrollDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EE731716B94AAB009BDB2E /* Debug */,
+				A0EE731816B94AAB009BDB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0EE731916B94AAB009BDB2E /* Build configuration list for PBXNativeTarget "TextViewAutoScrollDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EE731A16B94AAB009BDB2E /* Debug */,
+				A0EE731B16B94AAB009BDB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0EE731C16B94AAB009BDB2E /* Build configuration list for PBXNativeTarget "TextViewAutoScrollDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EE731D16B94AAB009BDB2E /* Debug */,
+				A0EE731E16B94AAB009BDB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0EE72D716B94AAB009BDB2E /* Project object */;
+}
